@@ -4,7 +4,7 @@ A finite state transducer that operates just like a DFA but also outputs a chara
 
 _Formal Description of FST_
 
-##M = (∑, 𝑂, 𝑄, 𝑓, 𝑔, 𝑞0):
+**M = (∑, 𝑂, 𝑄, 𝑓, 𝑔, 𝑞0):**
 
 1. ∑ is a finite set of input symbols
 
