@@ -2,16 +2,20 @@
 
 A finite state transducer that operates just like a DFA but also outputs a character at each transition that may be used to interact
 
-_Explanation of Symbols used_
+_Formal Description of FST_
 
-o ∑ is a finite set of input symbols
+##M = (∑, 𝑂, 𝑄, 𝑓, 𝑔, 𝑞0):
 
-o O is a finite set of output symbols
+1. ∑ is a finite set of input symbols
 
-o Q is a finite set of states.
+2. O is a finite set of output symbols
 
-o f : Q x ∑ → Q is the “next state” function. 
+3. Q is a finite set of states.
 
-o g : Q x ∑ → O is the “output” function. 
+4. f : Q x ∑ → Q is the “next state” function. 
 
-o 𝑞0∈ Q is the start state
+5. g : Q x ∑ → O is the “output” function. 
+
+6. 𝑞0∈ Q is the start state
+
+
